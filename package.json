@@ -4,9 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "node --loader ts-node/esm src/q17-deep-readonly/deep-readonly.runtime.ts",
+    "dev": "node --loader ts-node/esm",
     "build": "tsc --project tsconfig.json",
-    "start": "node dist/q17-deep-readonly/deep-readonly.runtime.js"
+    "start": "node dist"
   },
   "keywords": [],
   "author": "",
