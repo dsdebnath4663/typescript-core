@@ -1,0 +1,20 @@
+{
+  "name": "typescript-core",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/q17-deep-readonly/deep-readonly.runtime.ts",
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/q17-deep-readonly/deep-readonly.runtime.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.3.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
