@@ -11,6 +11,7 @@ type User = {
   name: string;
 };
 
+
 const u: User = { id: "u1", name: "A" };
 
 console.log("[Q10] before =", u);
