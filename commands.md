@@ -1,8 +1,15 @@
 ```bash
-  npm run build
+npm run build
 ```
 
+# Run Q10 with the loader (or your dev script)
+
 ```bash
-  npx ts-node --esm src/q9-omit-sensitive-fields/public-user.ts       
+node --loader ts-node/esm src/q10-readonly-enforcement/readonly-enforcement.ts
 ```
-  
+
+- or
+
+```bash
+npm run dev -- src/q10-readonly-enforcement/readonly-enforcement.ts
+```
